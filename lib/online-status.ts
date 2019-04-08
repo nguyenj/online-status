@@ -14,7 +14,7 @@ export function isOnline (): boolean {
 }
 
 function emitStatus (): void {
-    offline.emit('online-status', isOnline())
+    offline.emit('status', isOnline())
 }
 
 export function start (): EventEmitter {
