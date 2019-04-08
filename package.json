@@ -1,0 +1,35 @@
+{
+  "name": "online-status",
+  "version": "1.0.0",
+  "description": "Check if the browser have network connection",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "lint": "eslint *.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "browser",
+    "online",
+    "offline",
+    "network",
+    "detect",
+    "status",
+    "accessible",
+    "connected",
+    "connectivity"
+  ],
+  "author": "John Nguyen <hello@jnguyen.me>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/events": "^3.0.0",
+    "@typescript-eslint/eslint-plugin": "^1.6.0",
+    "@typescript-eslint/parser": "^1.6.0",
+    "eslint": "^5.16.0",
+    "typescript": "^3.4.1"
+  },
+  "dependencies": {
+    "events": "^3.0.0"
+  }
+}
