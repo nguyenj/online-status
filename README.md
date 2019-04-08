@@ -45,3 +45,7 @@ statusEvent.on('status', handleOnlineStatus)
 | Name | Params | Description |
 ===
 | `status` | status(boolean) | Emits a status event with one boolean param value to indicate network status |
+
+## License
+
+MIT Copyright (c) 2019 [John Nguyen](https://jnguyen.me)
