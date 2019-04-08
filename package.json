@@ -1,5 +1,5 @@
 {
-  "name": "online-status",
+  "name": "online-status-event",
   "version": "1.0.0",
   "description": "Check if the browser have network connection",
   "main": "dist/index.js",
