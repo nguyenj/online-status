@@ -7,7 +7,7 @@
   "scripts": {
     "lint": "eslint *.ts",
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prePublish": "npm run build"
   },
   "keywords": [
     "browser",
