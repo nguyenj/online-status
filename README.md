@@ -35,16 +35,17 @@ statusEvent.on('status', handleOnlineStatus)
 
 ### Functions
 
-| Function | Arguments | Returns | Description |
-===
-| `isOnline` | none | boolean | Checks network status |
-| `start` | none | object | Starts listening to status changes |
-| `stop` | none | object | Stops listening to status changes |
+Function | Arguments | Returns | Description
+--- | --- | --- | ---
+`isOnline` | none | boolean | Checks network status
+`start` | none | object | Starts listening to status changes
+`stop` | none | object | Stops listening to status changes
 
 ### Events
-| Name | Params | Description |
-===
-| `status` | status(boolean) | Emits a status event with one boolean param value to indicate network status |
+
+Name | Params | Description
+--- | --- | ---
+`status` | status(boolean) | Emits a status event with one boolean param value to indicate network status
 
 ## License
 
