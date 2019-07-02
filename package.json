@@ -31,5 +31,16 @@
   },
   "dependencies": {
     "events": "^3.0.0"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nguyenj/online-status-event.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nguyenj/online-status-event/issues"
+  },
+  "homepage": "https://github.com/nguyenj/online-status-event#readme"
 }
